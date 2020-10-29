@@ -1,0 +1,64 @@
+html{
+    font-family: "Avenir Next", Helevetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: peachpuff;
+    position: relative;
+}
+.app-container {
+    width: 50%;
+    min-width: 270px;
+    max-width: 500px;
+    margin: auto;
+    min-height: 200px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 8px 1px rgb(255, 169, 93);
+    border-radius: 10px;
+}
+input{
+    background-color: peachpuff;
+    border:2px solid rgb(255, 169, 93);
+    width: 80%;
+    max-width: 200px;
+}
+input:focus {
+    border: 2px solid orange;
+    outline: none;
+    box-shadow: 0px 0px 4px 0px rgb(255, 169, 93);
+}
+.input-container {
+    margin: auto;
+}
+main {
+    margin-top: 4%;
+}
+.lists-container {
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+}
+li {
+    font-size: 1.3rem;
+    list-style-type: none;
+    text-align: center;
+    /*margin: auto;*/
+    margin-top: 10px;
+    padding: 10px;
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(255, 174, 102);
+}
+li:hover {
+    box-shadow: 0px 0px 6px 0px rgb(255, 169, 93);
+    /*text-decoration: line-through;*/
+}
